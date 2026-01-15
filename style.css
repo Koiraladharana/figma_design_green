@@ -1,4 +1,40 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 html, body{
     margin: 0;
     padding: 0;
+}
+nav{
+    display: flex;
+    width: 1440px;
+    height: 84px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F5F7FA;
+}
+.nav-container{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+.btn-login{
+    margin-right: 14px;
+    color: #4CAF4F;
+    border: none;
+    padding: 10px 20px;
+    background-color:#F5F7FA;
+    width: 77px;
+    height: 40px;
+    font-size: 14px;
+}
+.btn-sign_up{
+        padding: 10px 20px;
+      color: white;
+      background-color: #4CAF4F;
+      border: none;
+      border-radius:8px ;
+      width:91px ;
+      height: 40px;
+      font-size: 14px;
 }
