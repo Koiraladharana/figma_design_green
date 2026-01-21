@@ -18,6 +18,11 @@ nav {
   list-style: none;
   gap: 50px;
 }
+.nav-container li:hover{
+  color: red;
+  transform: scale(1.1);
+  cursor: pointer;
+}
 .btn-login {
   margin-right: 14px;
   color: #4caf4f;
@@ -28,6 +33,14 @@ nav {
   height: 40px;
   box-sizing: border-box;
   font-size: 14px;
+  transition: all 0.3s ease-in-out;
+
+}
+.btn-login:hover{
+  background-color: rgb(236, 10, 10);
+  color: #F5F7FA;
+  border-radius: 8px;
+  cursor: pointer;
 }
 .btn-sign_up {
   padding: 10px 20px;
@@ -38,6 +51,12 @@ nav {
   width: 91px;
   height: 40px;
   font-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+.btn-sign_up:hover{
+  background-color: rgb(236, 10, 10);
+  border-radius: 8px;
+  cursor: pointer;
 }
 #main-1 {
   height: 1300px;
@@ -61,6 +80,9 @@ nav {
   height: 407px;
   border: none;
 }
+.image-container2:hover{
+  transform: scale(1.1);
+}
 .cont-p {
   font-size: 16px;
   color: #717171;
@@ -74,6 +96,12 @@ nav {
   width: 128px;
   height: 52px;
   margin-top: 32px;
+  transition: 0.3s ease-in-out;
+}
+.btn-register:hover{
+   background-color: rgb(236, 10, 10);
+  border-radius: 8px;
+  transition: 0.3ms ease-in-out;
 }
 .dot {
   margin-left: auto;
@@ -101,6 +129,7 @@ nav {
 .text2 {
   font-size: 16px;
   color: #717171;
+  margin-top: 20px;
 }
 .sec2-logo {
   width: 1152px;
@@ -124,7 +153,7 @@ nav {
   font-size: 16px;
   color: #717171;
   height: 24px;
-  margin-top: 8px;
+  margin-top: 25px;
   margin-bottom: 16px;
 }
 .sec3-text-img {
@@ -134,6 +163,7 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 65px;
+  margin-top: 20px;
 }
 .sec3-img1 {
   width: 299px;
@@ -144,7 +174,11 @@ nav {
   justify-content: space-between;
   align-items: center;
   border-radius: 8px;
-  box-shadow: 0 0 25px rgb(235, 232, 232);
+}
+.sec3-img1:hover{
+  cursor: pointer;
+  transform: scale(1.0);
+  box-shadow: 2px 2px 10px #000;
 }
 .sec3-img1-logo {
   width: 65px;
@@ -173,7 +207,11 @@ nav {
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-  box-shadow: 0 0 25px rgb(235, 232, 232);
+}
+.sec3-img2:hover{
+  cursor: pointer;
+  transform: scale(1.0);
+  box-shadow: 2px 2px 10px #000;
 }
 .sec3-img2-logo {
   width: 65px;
@@ -206,7 +244,11 @@ nav {
   align-items: center;
   border: none;
   border-radius: 8px;
-  box-shadow: 0 0 25px rgb(235, 232, 232);
+}
+.sec3-img3:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 2px 2px 10px #000;
 }
 .sec3-img3-logo {
   width: 65px;
@@ -493,6 +535,7 @@ nav {
   font-size: 16px;
   text-align: center;
   margin-left: 340px;
+  margin-top: 10px;
 }
 .main2-sec5-logo123 {
   height: 366px;
@@ -500,6 +543,7 @@ nav {
   display: flex;
   gap: 16px;
   position: relative;
+  margin-top: 40px;
 }
 .main2-sec5-logo1 {
   height: 366px;
@@ -601,6 +645,7 @@ nav {
 .main3-sec1{
   height: 300px;
   background-color: #F5F7FA;
+  padding: 20px;
 }
 .main3-sec1-text{
   line-height: 76px;
